@@ -1,0 +1,58 @@
+[
+  {
+    "id": 2,
+    "title": "Tapa de asado",
+    "description": "parrilla",
+    "code": "cos123",
+    "price": 150,
+    "status": true,
+    "stock": 150,
+    "category": "corte para parrilla",
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "vacio",
+    "description": "parrilla",
+    "code": "cos123",
+    "price": 150,
+    "status": true,
+    "stock": 150,
+    "category": "corte para parrilla",
+    "thumbnails": []
+  },
+  {
+    "id": 4,
+    "title": "costilla",
+    "description": "parrilla",
+    "code": "cos123",
+    "price": 150,
+    "status": true,
+    "stock": 150,
+    "category": "corte para parrilla",
+    "thumbnails": []
+  },
+  {
+    "id": 5,
+    "title": "Costillar con manto",
+    "description": "parrilla",
+    "code": "cos123",
+    "price": 150,
+    "status": true,
+    "stock": 150,
+    "category": "corte para parrilla",
+    "thumbnails": []
+  },
+ 
+  {
+    "id": 7,
+    "title": "Morcilla",
+    "description": "parrilla",
+    "code": "cos123",
+    "price": 150,
+    "status": true,
+    "stock": 1500,
+    "category": "Morcilla",
+    "thumbnails": []
+  }
+]

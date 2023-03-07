@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  {{!-- Agregar un nuevo producto --}}
+
+  <form id="add-product-form">
+  <input type="text" name="name" placeholder="Nombre del producto">
+  <input type="number" name="price" placeholder="Precio del producto">
+  <button type="submit">Agregar producto</button>
+</form>
+{{!-- Eliminar un producto --}}
+
+<ul>
+ <form id="delete-product-form">
+  <label for="product-id">ID del producto a eliminar:</label>
+  <input type="text" id="product-id" name="id">
+  <button type="submit">Eliminar producto</button>
+</form>
+</ul>
+
+<ul>
+  {{#each productos}}
+    <li data-product-id="{{this.id}}">
+     Cod. {{this.id}} || Corte: {{this.title}} || Descripción: {{this.description}} || Precio: ${{this.price}} 
+    </li>
+  {{/each}}
+</ul>
+
+
+<script src="/socket.io/socket.io.js" ></script>
+<script src="/js/index.js" ></script>
+
+
+</body>
+</html>

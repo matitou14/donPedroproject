@@ -1,0 +1,18 @@
+{
+  "name": "desafionuevowebhbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "socket.io": "^4.6.1"
+  }
+}

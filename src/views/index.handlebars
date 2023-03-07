@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Listado de Productos</title>
+  </head>
+  <body>
+    <h1>Listado de Productos</h1>
+    {{#if productos}}
+      <ul>
+        {{#each productos}}
+          <li>{{this.id}} || Corte: {{this.title}} || Descripción: {{this.description}} || Precio: ${{this.price}} </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p>No hay productos para mostrar</p>
+    {{/if}}
+
+
+<script src="/socket.io/socket.io.js" ></script>
+<script src="/js/index.js" ></script>
+
+</body>
+</html>
